@@ -1,4 +1,4 @@
-# A NodeJS function running on AWS Lambda using the Serverless Framework.
+# A serverless node.js app running on AWS Lambda
 
 ## Usage
 
