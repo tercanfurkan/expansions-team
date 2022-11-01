@@ -1,5 +1,13 @@
 # A serverless node.js app running on AWS Lambda
 
+## Setup
+
+Run this command to initialize a new project in a new working directory.
+
+```
+npm install
+```
+
 ## Usage
 
 ### Deployment
@@ -36,6 +44,12 @@ Which should result in response similar to the following:
     "statusCode": 200,
     "body": "{\n  \"message\": \"Go Serverless v3.0! Your function executed successfully!\",\n  \"input\": {}\n}"
 }
+```
+
+You can also invoke the deployed function using curl:
+
+```bash
+curl https://xxxxxxxxx.execute-api.us-east-1.amazonaws.com/
 ```
 
 ### Local development
